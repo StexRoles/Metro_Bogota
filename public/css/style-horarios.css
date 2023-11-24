@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* ESTILOS DEL HEADER */
+
+.main-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 7rem;
+}
+
+.banner-sup {
+    background-color: #F4D03F;
+}
+
+.logo {
+    height: 60px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.menu-sup ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-sup ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.menu-sup ul a {
+    text-decoration: none;
+    color: #5F6A6A;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.bar-buscar {
+    border: solid 1px black;
+    border-radius: 1rem;
+    height: 1.6rem;
+    width: 15rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.contenedor-banner {
+    margin: 0rem 7rem;
+}
+
+
+/* ESTILOS DEL MAIN */
+
+main {
+    margin: 2rem 7rem;
+}
+
+.contenedor-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja-der {
+    padding-left: 2rem;
+    width: 75%;
+}
+
+.caja-der p {
+    color: #5F6A6A;
+    font-size: 18px;
+}
+
+.caja-der hr {
+    border: 2px solid red;
+}
+
+.caja-izq hr {
+    border: 1px solid red;
+}
+
+.caja-izq {
+    width: 25%;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 24rem;
+}
+
+.caja-izq div {
+    padding: 0.7rem;
+    transition: all 0.3s;
+}
+
+.caja-izq div:hover {
+    background-color: red;
+    scale: 1.06;
+}
+
+.caja-izq div:hover p {
+    color: white;
+}
+
+.caja-izq p {
+    font-weight: bold;
+    color: #5F6A6A;
+}
+
+.caja-izq a {
+    text-decoration: none;
+}
+
+.titulo {
+    margin-bottom: 1rem;
+}
+
+.titulo-menu {
+    font-size: 19px;
+    padding: 0.7rem 0;
+}
+
+.contenedor-horarios {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dias-habiles {
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+.contenedor-horarios div h3 {
+    padding: 0 6rem;
+}
+
+.lineas {
+    padding-left: 1rem;
+}
+
+.contenedor-lineas {
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.contenedor-lineas div {
+    padding: 0.5rem 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.contenedor-cable div {
+    padding: 0.5rem 0.8rem;
+    margin-top: 0.5rem;
+    margin-right: 6rem;
+}
+
+.contenedor-lineas div p {
+    font-weight: bold;
+    color: white;
+}
+
+.contenedor-cable div p {
+    font-weight: bold;
+    color: white;
+}
+
+.linea-1 {
+    background-color: #0F50D0;
+}
+
+.linea-2 {
+    background-color: #33AB15;
+}
+
+.linea-3 {
+    background-color: #F4D03F;
+}
+
+.linea-4 {
+    background-color: red;
+}
+
+.linea-5 {
+    background-color: #F39C12;
+}
+
+.linea-6 {
+    background-color: #0FBCD0;
+}
+
+.linea-7 {
+    background-color: #6900E7;
+
+}
+
+/* ESTILOS DEL FOOTER */
+
+footer {
+    background-color: red;
+}
+
+.copyright {
+    background-color: #F4D03F;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.3rem 0;
+} 
+
+.footer-article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.footer-article p {
+    color: white;
+}
+
+footer section {
+    padding-top: 2rem;
+}
+
+.social {
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.social img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}

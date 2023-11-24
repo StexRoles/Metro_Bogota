@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* ESTILOS DEL HEADER */
+
+.main-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 7rem;
+}
+
+.banner-sup {
+    background-color: #F4D03F;
+}
+
+.logo {
+    height: 60px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.menu-sup ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-sup ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.menu-sup ul a {
+    text-decoration: none;
+    color: #5F6A6A;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.bar-buscar {
+    border: solid 1px black;
+    border-radius: 1rem;
+    height: 1.6rem;
+    width: 15rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.contenedor-banner {
+    margin: 0rem 7rem;
+}
+
+
+/* ESTILOS DEL MAIN */
+
+main {
+    margin: 2rem 7rem;
+}
+
+.contenedor-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja-der {
+    padding-left: 2rem;
+    width: 75%;
+}
+
+.caja-der p {
+    color: #5F6A6A;
+    font-size: 18px;
+}
+
+.caja-der hr {
+    border: 2px solid red;
+}
+
+.caja-izq hr {
+    border: 1px solid red;
+}
+
+.caja-izq {
+    width: 25%;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 24rem;
+}
+
+.caja-izq div {
+    padding: 0.7rem;
+    transition: all 0.3s;
+}
+
+.caja-izq div:hover {
+    background-color: red;
+    scale: 1.06;
+}
+
+.caja-izq div:hover p {
+    color: white;
+}
+
+.caja-izq p {
+    font-weight: bold;
+    color: #5F6A6A;
+}
+
+.caja-der p {
+    margin-top: 1rem;
+}
+
+.caja-izq a {
+    text-decoration: none;
+}
+
+.titulo {
+    margin-bottom: 1rem;
+}
+
+.titulo-menu {
+    font-size: 19px;
+    padding: 0.7rem 0;
+}
+
+.contenedor-mapa {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.contenedor-mapa img {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.5s ease;
+    border-radius: 0.5rem;
+}
+
+.contenedor-mapa img:hover {
+    scale: 1.06;
+}
+
+/* ESTILOS DEL FOOTER */
+
+footer {
+    background-color: red;
+}
+
+.copyright {
+    background-color: #F4D03F;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.3rem 0;
+} 
+
+.footer-article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.footer-article p {
+    color: white;
+}
+
+footer section {
+    padding-top: 2rem;
+}
+
+.social {
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.social img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
