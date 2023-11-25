@@ -71,6 +71,64 @@ header {
     margin: 0rem 7rem;
 }
 
+/* MEDIA QUERIES DEL HEADER */
+
+@media (max-width: 1200px) {
+    .main-superior {
+        margin: 1rem 2rem;
+    }
+
+    .bar-buscar {
+        display: none;
+    }
+
+    .contenedor-banner {
+        margin: 0 2rem;
+    }
+
+    .menu-sup {
+        width: 40%;
+    }
+
+    .menu-sup a {
+        font-size: 1rem !important;
+    }
+
+    .logo-bogota {
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo-bogota {
+        display: none;
+    }
+
+    .menu-sup ul {
+        justify-content: space-around;
+    }
+
+    .main-superior {
+        flex-direction: column;
+        margin: 1rem 0.6rem;
+    }
+
+    .menu-sup {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .logos {
+        width: 70%;
+        justify-content: center;
+    }
+
+    .contenedor-banner {
+        margin: 0 0.6rem;
+    }
+}
+
 
 /* ESTILOS DEL MAIN */
 
@@ -174,6 +232,43 @@ main {
     margin-bottom: 1rem;
 }
 
+/* MEDIA QUERIES DEL MAIN */
+
+@media (max-width: 1200px) {
+
+    main {
+        margin: 2rem 2rem;
+    }
+
+    .contenedor-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caja-izq {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .caja-der {
+        width: 80%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .caja-izq {
+        width: 100%;
+    }
+
+    .caja-der {
+        width: 100%;
+    }
+    
+}
+
+
 /* ESTILOS DEL FOOTER */
 
 footer {
@@ -222,4 +317,47 @@ footer section {
 .social-div {
     display: flex;
     justify-content: space-evenly;
+}
+
+/* MEDIA QUERIES DEL FOOTER */
+
+@media (max-width: 1200px) {
+
+    .texto-footer{
+        width: 30%;
+    }
+
+    .social {
+        width: 40%;
+        margin: 0.5rem;
+    }
+
+    .img-gov {
+        width: 30%;
+        margin: 0.5rem;
+    }
+
+    .img-gov img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .img-gov {
+        display: none;
+    }
+
+    .footer-article {
+        flex-direction: column;
+    }
+
+    .social {
+        width: 80%;
+        margin-top: 2rem;     
+    }
+
+    .texto-footer {
+        width: 80%;
+    }
 }

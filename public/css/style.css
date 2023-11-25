@@ -112,7 +112,7 @@ header {
 
     .main-superior {
         flex-direction: column;
-        margin: 1rem 0.6rem;
+        margin: 1rem 1rem;
     }
 
     .menu-sup {
@@ -126,7 +126,7 @@ header {
     }
 
     .contenedor-banner {
-        margin: 0 0.6rem;
+        margin: 0 1rem;
     }
 }
 
@@ -318,7 +318,7 @@ main {
 @media (max-width: 600px) {
     
     main {
-        margin: 2rem 0.6rem;
+        margin: 2rem 1rem;
     }
     
     .caja-izq {
@@ -327,12 +327,12 @@ main {
     }
     
     .menu {
-        width: 70%;
+        width: 85%;
         margin-bottom: 2rem;
     }
     
     .aviso-legal {
-        width: 70%;
+        width: 85%;
         margin-left: 0;
     }
     
@@ -437,6 +437,5 @@ footer section {
 
     .texto-footer {
         width: 80%;
-        margin-left: 20%;
     }
 }

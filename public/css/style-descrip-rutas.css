@@ -86,14 +86,6 @@ header {
         margin: 0 2rem;
     }
 
-    .logos-1 {
-        width: 50%;
-    }
-
-    .logo-2 {
-        width: 50%;
-    }
-
     .menu-sup {
         width: 40%;
     }
@@ -384,6 +376,5 @@ footer section {
 
     .texto-footer {
         width: 80%;
-        margin-left: 20%;
     }
 }
