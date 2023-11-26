@@ -71,6 +71,48 @@ header {
     margin: 0rem 7rem;
 }
 
+.slider-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 600%;
+    animation: slide 18s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider-box img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    12.5% {margin-left: 0;}
+
+    17.5% {margin-left: -100%;}
+    30% {margin-left: -100%;}
+
+    35% {margin-left: -200%;}
+    47.5% {margin-left: -200%;}
+
+    52.5% {margin-left: -300%;}
+    65% {margin-left: -300%;}
+
+    70% {margin-left: -400%;}
+    82.5% {margin-left: -400%;}
+
+    87.5% {margin-left: -500%;}
+    100% {margin-left: -500%;}
+}
+
 
 /* MEDIA QUERIES DEL HEADER */
 
